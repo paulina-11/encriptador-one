@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/083965e19a.js" crossorigin="anonymous"></script>
+    <title>Encriptador - desencriptador</title>
+</head>
+<body>
+    <h1 class="titulo">Código secreto</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto"> <p class="texto-label">Solo letras minúsculas, sin acentos</p>  </label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <button class="btn" type="button" onclick="btnEncriptar()"><span class="text">Encriptar</span></button>
+        <button class="btn" type="button" onclick="btnDesencriptar()"><span class="text">Desencriptar</span></button>
+       
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <p class="texto-label">Mensaje encriptado:</p>
+      <input class="text-input" type="text" id="msg"></input>
+      <button class="btn" type="button" onclick="btnCopiar()"><span class="text">Copiar</span></button>
+      
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="texto-footer">
+        <p>Paulina Ávila López</p>
+        <small> Sigueme en mis redes sociales:</small>
+        <ul class="redes-footer">
+            <li class="redes-li"><a href="https://www.linkedin.com/in/paulina-avila-l93/" target="_blank" ><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/paulina-11" target="_blank" ><i class="fab fa-github"></i></i></a></li>
+        </ul>
+        
+    </div>
+
+</footer>
+    
+  <script src="js/script.js"></script>
+</body>
+</html>
